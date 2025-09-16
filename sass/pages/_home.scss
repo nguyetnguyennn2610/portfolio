@@ -2,8 +2,8 @@
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
+      rgba($themeClrPrimary, 1),
+      rgba($themeClrPrimary, 1)
     ),
     url(../../assets/svg/common-bg.svg);
   background-position: center;
@@ -290,4 +290,14 @@
       width: 100%;
     }
   }
+}
+
+.home-hero__logo {
+  display: block;
+  margin: 0 auto 30px auto; /* center horizontally */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* circle */
+  object-fit: cover;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
 }
