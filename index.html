@@ -218,29 +218,46 @@
       </div>
     </section>
 
-    <footer class="main-footer contact sec-pad">
+    <footer id="contact" class="main-footer sec-pad">
       <div class="main-container">
+
         <div class="main-footer__upper">
+
+          <!-- Left side -->
           <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm"><span>Socials</span></h2>
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Socials</span>
+            </h2>
+
             <div class="main-footer__social-cont">
               <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/uofr-nguyet-nguyen/">
                 <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="LinkedIn" />
               </a>
+
               <a target="_blank" rel="noreferrer" href="https://github.com/nguyetnguyennn2610">
                 <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="GitHub" />
               </a>
             </div>
           </div>
+
+          <!-- Right side -->
           <div class="main-footer__row main-footer__row-2">
             <h4 class="heading heading-sm text-lt">Riley Nguyen</h4>
             <p class="main-footer__short-desc">
               Business Analytics @ University of Rochester
             </p>
+            <p class="main-footer__short-desc">
+              <strong>Email:</strong> yourname@email.com
+            </p>
           </div>
-        </div>
 
+        </div>
+      </div>
     </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
     <script src="./index.js"></script>
   </body>
