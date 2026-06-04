@@ -193,7 +193,11 @@ textarea { resize: none; }
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #00408C;
+  background:
+  radial-gradient(circle at 20% 20%, rgba(167, 139, 250, 0.35), transparent 28%),
+  radial-gradient(circle at 80% 30%, rgba(52, 211, 153, 0.25), transparent 25%),
+  radial-gradient(circle at 50% 90%, rgba(96, 165, 250, 0.25), transparent 30%),
+  linear-gradient(135deg, #06498f 0%, #0f4f91 45%, #123c73 100%);
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
